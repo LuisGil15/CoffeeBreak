@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title>Moka Pot</title>
+  <desc>Ilustración minimal para método Moka.</desc>
+  <defs>
+    <linearGradient id="moka-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5a3d25"/>
+      <stop offset="100%" stop-color="#2f1a0e"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="#0f1217"/>
+  <path d="M180 56 h280 a30 30 0 0 1 30 30 v188 a30 30 0 0 1 -30 30 H180 a30 30 0 0 1 -30 -30 V86 a30 30 0 0 1 30 -30 Z" fill="url(#moka-gradient)"/>
+  <rect x="215" y="150" width="210" height="90" rx="12" fill="#f0d8b3"/>
+  <path d="M235 126 h170 a18 18 0 0 1 18 18 v12 H217 v-12 a18 18 0 0 1 18 -18 Z" fill="#e5c89e"/>
+  <ellipse cx="320" cy="285" rx="190" ry="14" fill="#28190e"/>
+  <text x="320" y="313" font-family="Arial, Helvetica, sans-serif" text-anchor="middle" font-size="42" fill="#ffd6a6">MOKA</text>
+</svg>

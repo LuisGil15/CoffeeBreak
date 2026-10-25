@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Scaffold reference: chosen-calculator.png</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:wght@700&family=Almendra+Display:wght@400&display=swap">
+  <link rel="stylesheet" href="layout.css">
+  <style>html,body{margin:0}body{background:#f8f1e4}.region{box-sizing:border-box}.region.text p{white-space:pre-wrap}</style>
+</head>
+<body>
+<!-- Reference only. Every region sits at its measured box inside a comp-aspect frame. Take the boxes (layout.css), keep your own semantic structure. -->
+<main class="comp-frame" style="max-width:1024px">
+  <div class="r-header region chrome" data-region="header"><!-- Espresso brown brand bar spanning the top of the calculator --></div>
+  <div class="r-brand-mark region control" data-region="brand-mark"><!-- Small steaming cup identity mark: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop brand-mark); a control need not have button chrome --></div>
+  <div class="r-brand-name region text" data-region="brand-name"><!-- Cream CoffeeBreak wordmark --><p style="font-size:var(--r-brand-name-font);line-height:1.05;margin:0">brand-name</p></div>
+  <div class="r-header-navigation region chrome" data-region="header-navigation"><!-- Three primary text navigation tabs aligned in the brand bar --></div>
+  <div class="r-nav-prepare region control" data-region="nav-prepare"><!-- Selected Preparar tab with copper underline: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop nav-prepare); a control need not have button chrome --></div>
+  <div class="r-nav-recipebook region control" data-region="nav-recipebook"><!-- Recetario navigation tab: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop nav-recipebook); a control need not have button chrome --></div>
+  <div class="r-nav-saved region control" data-region="nav-saved"><!-- Guardadas navigation tab: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop nav-saved); a control need not have button chrome --></div>
+  <div class="r-header-microcopy region text" data-region="header-microcopy"><!-- Handwritten friendly coffee greeting in the upper right --><p style="font-size:var(--r-header-microcopy-font);line-height:1.05;margin:0">header-microcopy</p></div>
+  <div class="r-page-title region text" data-region="page-title"><!-- Large serif heading Prepara tu café --><p style="font-size:var(--r-page-title-font);font-family:var(--r-page-title-family),sans-serif;font-weight:var(--r-page-title-weight);line-height:1.05;margin:0">page-title</p></div>
+  <div class="r-page-description region text" data-region="page-description"><!-- Short sans-serif explanation below the page heading --><p style="font-size:var(--r-page-description-font);line-height:1.05;margin:0">page-description</p></div>
+  <div class="r-page-aside region text" data-region="page-aside"><!-- Small stacked phrase at the right of the intro --><p style="font-size:var(--r-page-aside-font);line-height:1.05;margin:0">page-aside</p></div>
+  <div class="r-method-chemex region control" data-region="method-chemex"><!-- Chemex method selector with compact line icon: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop method-chemex); a control need not have button chrome --></div>
+  <div class="r-method-v60 region control" data-region="method-v60"><!-- V60 method selector with compact line icon: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop method-v60); a control need not have button chrome --></div>
+  <div class="r-method-press region control" data-region="method-press"><!-- French press method selector with compact line icon: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop method-press); a control need not have button chrome --></div>
+  <div class="r-method-cold-brew region control" data-region="method-cold-brew"><!-- Selected Cold Brew method selector: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop method-cold-brew); a control need not have button chrome --></div>
+  <div class="r-cold-brew-title region text" data-region="cold-brew-title"><!-- Cold Brew section heading in bold serif --><p style="font-size:var(--r-cold-brew-title-font);line-height:1.05;margin:0">cold-brew-title</p></div>
+  <div class="r-cold-brew-description region text" data-region="cold-brew-description"><!-- Short description of the selected cold coffee preparation --><p style="font-size:var(--r-cold-brew-description-font);line-height:1.05;margin:0">cold-brew-description</p></div>
+  <div class="r-cold-brew-aside region text" data-region="cold-brew-aside"><!-- Small handwritten coffee note to the right of the method description --><p style="font-size:var(--r-cold-brew-aside-font);font-family:var(--r-cold-brew-aside-family),sans-serif;font-weight:var(--r-cold-brew-aside-weight);line-height:1.05;margin:0">cold-brew-aside</p></div>
+  <div class="r-cold-brew-mode region control" data-region="cold-brew-mode"><!-- Two-way mode selector for concentrate and ready-to-drink recipes: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop cold-brew-mode); a control need not have button chrome --></div>
+  <div class="r-quantity-panel region chrome" data-region="quantity-panel"><!-- Warm inset panel containing serving quantity controls --></div>
+  <div class="r-quantity-heading region text" data-region="quantity-heading"><!-- Question heading for the quantity settings --><p style="font-size:var(--r-quantity-heading-font);line-height:1.05;margin:0">quantity-heading</p></div>
+  <div class="r-serving-stepper region control" data-region="serving-stepper"><!-- Minus, serving count, and plus control: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop serving-stepper); a control need not have button chrome --></div>
+  <div class="r-serving-size region control" data-region="serving-size"><!-- Dropdown for milliliters per serving: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop serving-size); a control need not have button chrome --></div>
+  <div class="r-recipe-panel region chrome" data-region="recipe-panel"><!-- Larger cream panel containing the calculated Cold Brew mixture and primary action --></div>
+  <div class="r-recipe-heading region text" data-region="recipe-heading"><!-- Tu mezcla title anchoring the calculation panel --><p style="font-size:var(--r-recipe-heading-font);line-height:1.05;margin:0">recipe-heading</p></div>
+  <div class="r-recipe-panel-note region text" data-region="recipe-panel-note"><!-- Small sage coffee affirmation on the recipe panel --><p style="font-size:var(--r-recipe-panel-note-font);line-height:1.05;margin:0">recipe-panel-note</p></div>
+  <div class="r-coffee-icon region control" data-region="coffee-icon"><!-- Small coffee bean icon above the calculated coffee mass: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop coffee-icon); a control need not have button chrome --></div>
+  <div class="r-water-icon region control" data-region="water-icon"><!-- Small water drop icon above the water measurement: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop water-icon); a control need not have button chrome --></div>
+  <div class="r-ratio-icon region control" data-region="ratio-icon"><!-- Small balance icon above the ratio measurement: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop ratio-icon); a control need not have button chrome --></div>
+  <div class="r-duration-icon region control" data-region="duration-icon"><!-- Small clock icon above the cold brew duration: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop duration-icon); a control need not have button chrome --></div>
+  <div class="r-coffee-value region text" data-region="coffee-value"><!-- Calculated coffee mass shown as 94 grams --><p style="font-size:var(--r-coffee-value-font);line-height:1.05;margin:0">coffee-value</p></div>
+  <div class="r-coffee-label region text" data-region="coffee-label"><!-- Café label beneath the coffee amount --><p style="font-size:var(--r-coffee-label-font);line-height:1.05;margin:0">coffee-label</p></div>
+  <div class="r-water-value region text" data-region="water-value"><!-- Calculated cold water amount shown as 750 milliliters --><p style="font-size:var(--r-water-value-font);line-height:1.05;margin:0">water-value</p></div>
+  <div class="r-water-label region text" data-region="water-label"><!-- Agua label beneath the water amount --><p style="font-size:var(--r-water-label-font);line-height:1.05;margin:0">water-label</p></div>
+  <div class="r-ratio-value region text" data-region="ratio-value"><!-- Brew ratio shown as one to eight --><p style="font-size:var(--r-ratio-value-font);line-height:1.05;margin:0">ratio-value</p></div>
+  <div class="r-ratio-label region text" data-region="ratio-label"><!-- Proportion label beneath the ratio --><p style="font-size:var(--r-ratio-label-font);line-height:1.05;margin:0">ratio-label</p></div>
+  <div class="r-duration-value region text" data-region="duration-value"><!-- Cold brew duration shown as fourteen hours --><p style="font-size:var(--r-duration-value-font);line-height:1.05;margin:0">duration-value</p></div>
+  <div class="r-duration-label region text" data-region="duration-label"><!-- Refrigeration label beneath the duration --><p style="font-size:var(--r-duration-label-font);line-height:1.05;margin:0">duration-label</p></div>
+  <div class="r-dilution-note region text" data-region="dilution-note"><!-- Serving note to dilute the concentrate one to one for six glasses --><p style="font-size:var(--r-dilution-note-font);line-height:1.05;margin:0">dilution-note</p></div>
+  <div class="r-prepare-action region control" data-region="prepare-action"><!-- Wide copper button to begin the guided preparation: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop prepare-action); a control need not have button chrome --></div>
+  <div class="r-bottom-navigation region chrome" data-region="bottom-navigation"><!-- Warm bottom navigation spanning the lower edge of the page --></div>
+  <div class="r-bottom-prepare region control" data-region="bottom-prepare"><!-- Selected bottom navigation item for preparation: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop bottom-prepare); a control need not have button chrome --></div>
+  <div class="r-bottom-recipebook region control" data-region="bottom-recipebook"><!-- Bottom navigation item for the recipe book: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop bottom-recipebook); a control need not have button chrome --></div>
+  <div class="r-bottom-saved region control" data-region="bottom-saved"><!-- Bottom navigation item for saved recipes: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop bottom-saved); a control need not have button chrome --></div>
+  <div class="r-bottom-microcopy region text" data-region="bottom-microcopy"><!-- Small handwritten sign-off at the right edge --><p style="font-size:var(--r-bottom-microcopy-font);line-height:1.05;margin:0">bottom-microcopy</p></div>
+</main>
+</body>
+</html>

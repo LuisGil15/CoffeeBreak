@@ -1,0 +1,534 @@
+{
+  "regions": [
+    {
+      "id": "header",
+      "kind": "chrome",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 0.109
+      },
+      "container": true,
+      "note": "Espresso brown brand bar spanning the top of the calculator"
+    },
+    {
+      "id": "brand-mark",
+      "kind": "control",
+      "parentId": "header",
+      "box": {
+        "x": 0.063,
+        "y": 0.01,
+        "w": 0.064,
+        "h": 0.045
+      },
+      "note": "Small steaming cup identity mark"
+    },
+    {
+      "id": "brand-name",
+      "kind": "text",
+      "parentId": "header",
+      "box": {
+        "x": 0.14,
+        "y": 0.012,
+        "w": 0.27,
+        "h": 0.04
+      },
+      "note": "Cream CoffeeBreak wordmark"
+    },
+    {
+      "id": "header-navigation",
+      "kind": "chrome",
+      "parentId": "header",
+      "box": {
+        "x": 0.17,
+        "y": 0.07,
+        "w": 0.63,
+        "h": 0.036
+      },
+      "container": true,
+      "note": "Three primary text navigation tabs aligned in the brand bar"
+    },
+    {
+      "id": "nav-prepare",
+      "kind": "control",
+      "parentId": "header-navigation",
+      "box": {
+        "x": 0.2,
+        "y": 0.073,
+        "w": 0.16,
+        "h": 0.025
+      },
+      "note": "Selected Preparar tab with copper underline"
+    },
+    {
+      "id": "nav-recipebook",
+      "kind": "control",
+      "parentId": "header-navigation",
+      "box": {
+        "x": 0.43,
+        "y": 0.073,
+        "w": 0.16,
+        "h": 0.025
+      },
+      "note": "Recetario navigation tab"
+    },
+    {
+      "id": "nav-saved",
+      "kind": "control",
+      "parentId": "header-navigation",
+      "box": {
+        "x": 0.64,
+        "y": 0.073,
+        "w": 0.16,
+        "h": 0.025
+      },
+      "note": "Guardadas navigation tab"
+    },
+    {
+      "id": "header-microcopy",
+      "kind": "text",
+      "parentId": "header",
+      "box": {
+        "x": 0.75,
+        "y": 0.009,
+        "w": 0.22,
+        "h": 0.05
+      },
+      "note": "Handwritten friendly coffee greeting in the upper right"
+    },
+    {
+      "id": "page-title",
+      "kind": "text",
+      "box": {
+        "x": 0.05,
+        "y": 0.132,
+        "w": 0.53,
+        "h": 0.048
+      },
+      "note": "Large serif heading Prepara tu café"
+    },
+    {
+      "id": "page-description",
+      "kind": "text",
+      "box": {
+        "x": 0.053,
+        "y": 0.183,
+        "w": 0.6,
+        "h": 0.028
+      },
+      "note": "Short sans-serif explanation below the page heading"
+    },
+    {
+      "id": "page-aside",
+      "kind": "text",
+      "box": {
+        "x": 0.875,
+        "y": 0.137,
+        "w": 0.095,
+        "h": 0.056
+      },
+      "note": "Small stacked phrase at the right of the intro"
+    },
+    {
+      "id": "method-chemex",
+      "kind": "control",
+      "box": {
+        "x": 0.04,
+        "y": 0.224,
+        "w": 0.22,
+        "h": 0.073
+      },
+      "note": "Chemex method selector with compact line icon"
+    },
+    {
+      "id": "method-v60",
+      "kind": "control",
+      "box": {
+        "x": 0.275,
+        "y": 0.224,
+        "w": 0.18,
+        "h": 0.073
+      },
+      "note": "V60 method selector with compact line icon"
+    },
+    {
+      "id": "method-press",
+      "kind": "control",
+      "box": {
+        "x": 0.465,
+        "y": 0.224,
+        "w": 0.255,
+        "h": 0.073
+      },
+      "note": "French press method selector with compact line icon"
+    },
+    {
+      "id": "method-cold-brew",
+      "kind": "control",
+      "box": {
+        "x": 0.73,
+        "y": 0.224,
+        "w": 0.23,
+        "h": 0.073
+      },
+      "note": "Selected Cold Brew method selector"
+    },
+    {
+      "id": "cold-brew-title",
+      "kind": "text",
+    "box": {
+      "x": 0.052,
+      "y": 0.322,
+      "w": 0.3,
+      "h": 0.035
+    },
+      "note": "Cold Brew section heading in bold serif"
+    },
+    {
+      "id": "cold-brew-description",
+      "kind": "text",
+    "box": {
+      "x": 0.054,
+      "y": 0.36,
+      "w": 0.65,
+      "h": 0.027
+    },
+      "note": "Short description of the selected cold coffee preparation"
+    },
+    {
+      "id": "cold-brew-aside",
+      "kind": "text",
+      "box": {
+        "x": 0.82,
+        "y": 0.337,
+        "w": 0.14,
+        "h": 0.046
+      },
+      "note": "Small handwritten coffee note to the right of the method description"
+    },
+    {
+      "id": "cold-brew-mode",
+      "kind": "control",
+      "box": {
+        "x": 0.043,
+        "y": 0.395,
+        "w": 0.914,
+        "h": 0.041
+      },
+      "note": "Two-way mode selector for concentrate and ready-to-drink recipes"
+    },
+    {
+      "id": "quantity-panel",
+      "kind": "chrome",
+      "box": {
+        "x": 0.043,
+        "y": 0.449,
+        "w": 0.914,
+        "h": 0.113
+      },
+      "container": true,
+      "note": "Warm inset panel containing serving quantity controls"
+    },
+    {
+      "id": "quantity-heading",
+      "kind": "text",
+      "parentId": "quantity-panel",
+      "box": {
+        "x": 0.076,
+        "y": 0.466,
+        "w": 0.4,
+        "h": 0.027
+      },
+      "note": "Question heading for the quantity settings"
+    },
+    {
+      "id": "serving-stepper",
+      "kind": "control",
+      "parentId": "quantity-panel",
+      "box": {
+        "x": 0.076,
+        "y": 0.495,
+        "w": 0.414,
+        "h": 0.05
+      },
+      "note": "Minus, serving count, and plus control"
+    },
+    {
+      "id": "serving-size",
+      "kind": "control",
+      "parentId": "quantity-panel",
+      "box": {
+        "x": 0.52,
+        "y": 0.495,
+        "w": 0.405,
+        "h": 0.05
+      },
+      "note": "Dropdown for milliliters per serving"
+    },
+    {
+      "id": "recipe-panel",
+      "kind": "chrome",
+      "box": {
+        "x": 0.043,
+        "y": 0.573,
+        "w": 0.914,
+        "h": 0.323
+      },
+      "container": true,
+      "note": "Larger cream panel containing the calculated Cold Brew mixture and primary action"
+    },
+    {
+      "id": "recipe-heading",
+      "kind": "text",
+      "parentId": "recipe-panel",
+      "box": {
+        "x": 0.08,
+        "y": 0.594,
+        "w": 0.27,
+        "h": 0.034
+      },
+      "note": "Tu mezcla title anchoring the calculation panel"
+    },
+    {
+      "id": "recipe-panel-note",
+      "kind": "text",
+      "parentId": "recipe-panel",
+      "box": {
+        "x": 0.69,
+        "y": 0.592,
+        "w": 0.24,
+        "h": 0.031
+      },
+      "note": "Small sage coffee affirmation on the recipe panel"
+    },
+    {
+      "id": "coffee-icon",
+      "kind": "control",
+      "parentId": "recipe-panel",
+      "box": {
+        "x": 0.14,
+        "y": 0.646,
+        "w": 0.05,
+        "h": 0.03
+      },
+      "note": "Small coffee bean icon above the calculated coffee mass"
+    },
+    {
+      "id": "water-icon",
+      "kind": "control",
+      "parentId": "recipe-panel",
+      "box": {
+        "x": 0.37,
+        "y": 0.646,
+        "w": 0.05,
+        "h": 0.03
+      },
+      "note": "Small water drop icon above the water measurement"
+    },
+    {
+      "id": "ratio-icon",
+      "kind": "control",
+      "parentId": "recipe-panel",
+      "box": {
+        "x": 0.68,
+        "y": 0.646,
+        "w": 0.05,
+        "h": 0.03
+      },
+      "note": "Small balance icon above the ratio measurement"
+    },
+    {
+      "id": "duration-icon",
+      "kind": "control",
+      "parentId": "recipe-panel",
+      "box": {
+        "x": 0.835,
+        "y": 0.646,
+        "w": 0.05,
+        "h": 0.03
+      },
+      "note": "Small clock icon above the cold brew duration"
+    },
+    {
+      "id": "coffee-value",
+      "kind": "text",
+      "parentId": "recipe-panel",
+      "box": {
+        "x": 0.1,
+        "y": 0.683,
+        "w": 0.13,
+        "h": 0.031
+      },
+      "note": "Calculated coffee mass shown as 94 grams"
+    },
+    {
+      "id": "coffee-label",
+      "kind": "text",
+      "parentId": "recipe-panel",
+      "box": {
+        "x": 0.12,
+        "y": 0.724,
+        "w": 0.08,
+        "h": 0.019
+      },
+      "note": "Café label beneath the coffee amount"
+    },
+    {
+      "id": "water-value",
+      "kind": "text",
+      "parentId": "recipe-panel",
+      "box": {
+        "x": 0.32,
+        "y": 0.683,
+        "w": 0.18,
+        "h": 0.031
+      },
+      "note": "Calculated cold water amount shown as 750 milliliters"
+    },
+    {
+      "id": "water-label",
+      "kind": "text",
+      "parentId": "recipe-panel",
+      "box": {
+        "x": 0.375,
+        "y": 0.724,
+        "w": 0.08,
+        "h": 0.019
+      },
+      "note": "Agua label beneath the water amount"
+    },
+    {
+      "id": "ratio-value",
+      "kind": "text",
+      "parentId": "recipe-panel",
+      "box": {
+        "x": 0.57,
+        "y": 0.683,
+        "w": 0.12,
+        "h": 0.031
+      },
+      "note": "Brew ratio shown as one to eight"
+    },
+    {
+      "id": "ratio-label",
+      "kind": "text",
+      "parentId": "recipe-panel",
+      "box": {
+        "x": 0.54,
+        "y": 0.724,
+        "w": 0.16,
+        "h": 0.019
+      },
+      "note": "Proportion label beneath the ratio"
+    },
+    {
+      "id": "duration-value",
+      "kind": "text",
+      "parentId": "recipe-panel",
+      "box": {
+        "x": 0.78,
+        "y": 0.683,
+        "w": 0.11,
+        "h": 0.031
+      },
+      "note": "Cold brew duration shown as fourteen hours"
+    },
+    {
+      "id": "duration-label",
+      "kind": "text",
+      "parentId": "recipe-panel",
+      "box": {
+        "x": 0.755,
+        "y": 0.724,
+        "w": 0.18,
+        "h": 0.019
+      },
+      "note": "Refrigeration label beneath the duration"
+    },
+    {
+      "id": "dilution-note",
+      "kind": "text",
+      "parentId": "recipe-panel",
+      "box": {
+        "x": 0.28,
+        "y": 0.781,
+        "w": 0.47,
+        "h": 0.035
+      },
+      "note": "Serving note to dilute the concentrate one to one for six glasses"
+    },
+    {
+      "id": "prepare-action",
+      "kind": "control",
+      "parentId": "recipe-panel",
+      "box": {
+        "x": 0.075,
+        "y": 0.822,
+        "w": 0.85,
+        "h": 0.055
+      },
+      "note": "Wide copper button to begin the guided preparation"
+    },
+    {
+      "id": "bottom-navigation",
+      "kind": "chrome",
+      "box": {
+        "x": 0,
+        "y": 0.922,
+        "w": 1,
+        "h": 0.078
+      },
+      "container": true,
+      "note": "Warm bottom navigation spanning the lower edge of the page"
+    },
+    {
+      "id": "bottom-prepare",
+      "kind": "control",
+      "parentId": "bottom-navigation",
+      "box": {
+        "x": 0.065,
+        "y": 0.934,
+        "w": 0.2,
+        "h": 0.058
+      },
+      "note": "Selected bottom navigation item for preparation"
+    },
+    {
+      "id": "bottom-recipebook",
+      "kind": "control",
+      "parentId": "bottom-navigation",
+      "box": {
+        "x": 0.34,
+        "y": 0.934,
+        "w": 0.2,
+        "h": 0.058
+      },
+      "note": "Bottom navigation item for the recipe book"
+    },
+    {
+      "id": "bottom-saved",
+      "kind": "control",
+      "parentId": "bottom-navigation",
+      "box": {
+        "x": 0.605,
+        "y": 0.934,
+        "w": 0.2,
+        "h": 0.058
+      },
+      "note": "Bottom navigation item for saved recipes"
+    },
+    {
+      "id": "bottom-microcopy",
+      "kind": "text",
+      "parentId": "bottom-navigation",
+      "box": {
+        "x": 0.82,
+        "y": 0.933,
+        "w": 0.16,
+        "h": 0.058
+      },
+      "note": "Small handwritten sign-off at the right edge"
+    }
+  ]
+}

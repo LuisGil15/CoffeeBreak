@@ -1,0 +1,179 @@
+{
+  "title": "Dirección visual de CoffeeBreak",
+  "question": "El recetario y la calculadora compartirán una sola identidad. Elige esta dirección, una alternativa, o vuelve a sortear.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "Fichas de cocina",
+      "kicker": "THE ROLL",
+      "lineage": "Fichas de recetas domésticas anotadas a mano",
+      "thesis": "Un recetario cercano y colorido hace cada receta fácil de encontrar y seguir.",
+      "palette": ["#244437", "#EECF58", "#F5F0D8", "#C85B49", "#263042"],
+      "materials": ["papel de ficha", "tinta de cocina"],
+      "viewport": "Navegación simple, una receta destacada de Cold Brew, controles para método y cantidad, y pasos con cantidades visibles.",
+      "risk": "Puede sentirse demasiado nostálgica si los apuntes visuales compiten con las medidas.",
+      "raised": [
+        {"from": "Crouwel grid", "raise": "Las cantidades importantes mantienen una alineación precisa y una jerarquía clara."},
+        {"from": "Zoo guide map", "raise": "El color identifica cada método de forma consistente en navegación, selección y receta."}
+      ],
+      "wireframe": {"cols": 12, "rows": 10, "regions": [
+        {"label": "header and navigation", "x": 0, "y": 0, "w": 12, "h": 1},
+        {"label": "featured recipe", "x": 0, "y": 1, "w": 8, "h": 4, "accent": true},
+        {"label": "brew modes", "x": 8, "y": 1, "w": 4, "h": 4},
+        {"label": "recipe controls", "x": 0, "y": 5, "w": 5, "h": 3},
+        {"label": "recipe amounts and steps", "x": 5, "y": 5, "w": 7, "h": 3},
+        {"label": "saved recipe shelf", "x": 0, "y": 8, "w": 12, "h": 2}
+      ]}
+    },
+    {
+      "id": "model-pick",
+      "label": "Etiquetas de tostador",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "Etiquetas de lotes de tostadores independientes",
+      "thesis": "Cada preparación tiene una identidad intensa y reconocible, como un lote de café especial.",
+      "palette": ["#173F35", "#F3E4C7", "#D95B37", "#E7B73D", "#213249"],
+      "materials": ["tinta de empaque", "papel sin recubrimiento"],
+      "viewport": "Una galería de preparaciones con etiquetas de método, notas, dosis y tiempo; la receta activa abre controles e instrucciones claras.",
+      "risk": "La gráfica de empaque es familiar para el café de especialidad y puede parecer demasiado de nicho.",
+      "wireframe": {"cols": 12, "rows": 10, "regions": [
+        {"label": "header and navigation", "x": 0, "y": 0, "w": 12, "h": 1},
+        {"label": "recipe search and filters", "x": 0, "y": 1, "w": 12, "h": 2},
+        {"label": "recipe gallery", "x": 0, "y": 3, "w": 7, "h": 5, "accent": true},
+        {"label": "selected recipe", "x": 7, "y": 3, "w": 5, "h": 5},
+        {"label": "saved recipes", "x": 0, "y": 8, "w": 12, "h": 2}
+      ]}
+    },
+    {
+      "id": "challenger-crouwel-grid",
+      "label": "Retícula tipográfica",
+      "verdict": "competitive",
+      "lineage": "Especímenes tipográficos de Wim Crouwel",
+      "thesis": "Las cantidades y los pasos ocupan posiciones constantes y se leen con rapidez.",
+      "palette": ["#F6F5EF", "#1E3A8A", "#E5D839", "#232323"],
+      "materials": ["retícula visible", "tinta plana"],
+      "viewport": "Una cuadrícula organiza métodos y recetas; la dosis principal y el tiempo quedan alineados en cada selección.",
+      "risk": "La afinidad con preparaciones caseras es menor que con la dirección de cocina.",
+      "case": "Fused as a strict type and spacing discipline, it strengthens recipe scanability but carries less audience affinity.",
+      "wireframe": {"cols": 12, "rows": 10, "regions": [
+        {"label": "navigation", "x": 0, "y": 0, "w": 12, "h": 1},
+        {"label": "methods grid", "x": 0, "y": 1, "w": 4, "h": 8},
+        {"label": "recipe quantities", "x": 4, "y": 1, "w": 4, "h": 4, "accent": true},
+        {"label": "preparation steps", "x": 8, "y": 1, "w": 4, "h": 8},
+        {"label": "recipe filters", "x": 4, "y": 5, "w": 4, "h": 4}
+      ]}
+    },
+    {
+      "id": "challenger-streaming-wall",
+      "label": "Galería de recetas",
+      "verdict": "competitive",
+      "lineage": "Catálogos audiovisuales de streaming",
+      "thesis": "Las fotos ayudan a descubrir una preparación y abren sus instrucciones.",
+      "palette": ["#171916", "#F5F0D8", "#E7B73D", "#79A876"],
+      "materials": ["fotografía a color", "fondos profundos"],
+      "viewport": "Recetas agrupadas por método, con filtros de preparación y una receta activa que muestra cantidades e instrucciones.",
+      "risk": "Las filas horizontales pueden esconder opciones y volver lenta la comparación.",
+      "case": "The focused recipe state supports discovery and clarity, though the streaming world has weaker coffee identity.",
+      "wireframe": {"cols": 12, "rows": 10, "regions": [
+        {"label": "navigation", "x": 0, "y": 0, "w": 12, "h": 1},
+        {"label": "recipe filters", "x": 0, "y": 1, "w": 12, "h": 1},
+        {"label": "recipe gallery", "x": 0, "y": 2, "w": 5, "h": 7, "accent": true},
+        {"label": "selected recipe details", "x": 5, "y": 2, "w": 7, "h": 7},
+        {"label": "saved recipes", "x": 0, "y": 9, "w": 12, "h": 1}
+      ]}
+    },
+    {
+      "id": "challenger-cassette-card",
+      "label": "Ficha de mixtape",
+      "verdict": "declined",
+      "lineage": "J-cards de casete con listas de canciones anotadas",
+      "thesis": "Los tiempos y las instrucciones se presentan en un orden medible.",
+      "palette": ["#F8F6EE", "#153E89", "#BF3429", "#363B42"],
+      "materials": ["papel rayado", "tinta de bolígrafo"],
+      "viewport": "La receta se ordena como una lista cronometrada con un cambio entre preparación y servido.",
+      "risk": "Las caras A y B y el giro físico no corresponden a preparar café.",
+      "case": "The source is memorable but the cassette metaphor obscures the recipe task and has little coffee audience affinity.",
+      "kept": "Right-aligned timing and dose labels keep each step easy to scan.",
+      "wireframe": {"cols": 12, "rows": 10, "regions": [
+        {"label": "navigation", "x": 0, "y": 0, "w": 12, "h": 1},
+        {"label": "recipe list", "x": 0, "y": 1, "w": 4, "h": 8},
+        {"label": "timed recipe steps", "x": 4, "y": 1, "w": 8, "h": 8, "accent": true},
+        {"label": "saved recipes", "x": 0, "y": 9, "w": 12, "h": 1}
+      ]}
+    },
+    {
+      "id": "challenger-zoo-map",
+      "label": "Mapa de áreas",
+      "verdict": "declined",
+      "lineage": "Mapas plegables de zoológicos y jardines",
+      "thesis": "Los grupos de recetas se distinguen de inmediato por forma y color.",
+      "palette": ["#8ED462", "#F5F1E4", "#FF705D", "#2BA0FF", "#2C2E2A"],
+      "materials": ["color plano", "fotografía recortada"],
+      "viewport": "Métodos y recetas quedan agrupados por áreas de color con instrucciones a la vista.",
+      "risk": "Los contornos llamativos no explican la relación entre un método y su receta.",
+      "case": "The map's topology weakens recipe clarity and its garden world is distant from home coffee preparation.",
+      "kept": "Use a complete, consistent palette for method families and selection states.",
+      "wireframe": {"cols": 12, "rows": 10, "regions": [
+        {"label": "navigation", "x": 0, "y": 0, "w": 12, "h": 1},
+        {"label": "method areas", "x": 0, "y": 1, "w": 8, "h": 6, "accent": true},
+        {"label": "selected recipe", "x": 8, "y": 1, "w": 4, "h": 6},
+        {"label": "filters", "x": 0, "y": 7, "w": 12, "h": 3}
+      ]}
+    },
+    {
+      "id": "challenger-orienteering-map",
+      "label": "Mapa de orientación",
+      "verdict": "declined",
+      "lineage": "Mapas de carreras de orientación",
+      "thesis": "Una leyenda de método acompaña a cada ruta de preparación.",
+      "palette": ["#FFFFFF", "#347849", "#F0D65A", "#3989A5", "#6D48A1"],
+      "materials": ["capas de color", "leyenda de símbolos"],
+      "viewport": "Una leyenda de métodos separa perfiles, dosis y pasos de preparación.",
+      "risk": "Una metáfora de navegación exterior complica una tarea de cocina sencilla.",
+      "case": "Layer separation is useful, but the navigation-map source is weakly identified with coffee and recipes.",
+      "kept": "Keep filters, method labels, and the currently selected recipe as separate, legible layers.",
+      "wireframe": {"cols": 12, "rows": 10, "regions": [
+        {"label": "navigation", "x": 0, "y": 0, "w": 12, "h": 1},
+        {"label": "method legend", "x": 0, "y": 1, "w": 3, "h": 8},
+        {"label": "selected recipe map", "x": 3, "y": 1, "w": 9, "h": 8, "accent": true},
+        {"label": "saved recipes", "x": 0, "y": 9, "w": 12, "h": 1}
+      ]}
+    },
+    {
+      "id": "challenger-type-specimen",
+      "label": "Muestra tipográfica",
+      "verdict": "declined",
+      "lineage": "Especímenes interactivos de tipografía variable",
+      "thesis": "La dosis se hace protagonista con un contraste marcado de escala.",
+      "palette": ["#F7F7F2", "#191919", "#5F6FC0"],
+      "materials": ["papel plano", "tinta negra"],
+      "viewport": "La cantidad de café lidera junto a controles para intensidad y tamaño de bebida.",
+      "risk": "El sistema tipográfico domina la pantalla si se lleva demasiado lejos.",
+      "case": "A live type-variable system offers little added clarity to a recipe and does not build audience affinity.",
+      "kept": "Give recipe dose and serving size a strong size hierarchy without hiding the remaining steps.",
+      "wireframe": {"cols": 12, "rows": 10, "regions": [
+        {"label": "navigation", "x": 0, "y": 0, "w": 12, "h": 1},
+        {"label": "coffee dose", "x": 0, "y": 1, "w": 6, "h": 5, "accent": true},
+        {"label": "recipe controls", "x": 6, "y": 1, "w": 6, "h": 5},
+        {"label": "recipe steps", "x": 0, "y": 6, "w": 12, "h": 3},
+        {"label": "saved recipes", "x": 0, "y": 9, "w": 12, "h": 1}
+      ]}
+    }
+  ],
+  "reroll": {"registers": ["safer", "bolder"]},
+  "buildPath": {"value": "code", "toggle": true},
+  "canon": true,
+  "canonCard": {
+    "label": "Recetario digital claro",
+    "thesis": "Métodos, controles y pasos siguen la estructura familiar de una app de cocina.",
+    "palette": ["#FFFFFF", "#18201B", "#EEF1ED", "#557F62"],
+    "materials": ["interfaz web estándar", "fotografía de recetas"],
+    "viewport": "Métodos seleccionables, cantidades en controles claros, e instrucciones ordenadas al lado.",
+    "risk": "Familiaridad máxima, personalidad limitada.",
+    "wireframe": {"cols": 12, "rows": 10, "regions": [
+      {"label": "navigation", "x": 0, "y": 0, "w": 12, "h": 1},
+      {"label": "method selector", "x": 0, "y": 1, "w": 5, "h": 8},
+      {"label": "recipe result and instructions", "x": 5, "y": 1, "w": 7, "h": 8, "accent": true},
+      {"label": "saved recipes", "x": 0, "y": 9, "w": 12, "h": 1}
+    ]}
+  }
+}

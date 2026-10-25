@@ -1,0 +1,2416 @@
+{
+  "tool": "comp-spec inspect-map",
+  "version": 1,
+  "referenceOnly": true,
+  "stateChanged": false,
+  "comp": ".impeccable/mocks/decision/chosen-calculator.png",
+  "compSize": {
+    "width": 1024,
+    "height": 1536
+  },
+  "inputRegionCount": 41,
+  "regions": [
+    {
+      "id": "header",
+      "kind": "chrome",
+      "note": "Espresso brown brand bar spanning the top of the calculator",
+      "grid": null,
+      "container": true,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 0.109
+      },
+      "px": {
+        "x": 0,
+        "y": 0,
+        "w": 1024,
+        "h": 167
+      },
+      "aspect": 6.1317,
+      "palette": [
+        {
+          "hex": "#472818",
+          "coverage": 0.9513
+        },
+        {
+          "hex": "#f8f1e3",
+          "coverage": 0.0231
+        },
+        {
+          "hex": "#a79689",
+          "coverage": 0.0133
+        },
+        {
+          "hex": "#de7c48",
+          "coverage": 0.0062
+        },
+        {
+          "hex": "#6f5848",
+          "coverage": 0.0061
+        }
+      ],
+      "detail": {
+        "energy": 21.396
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 1,
+      "cropPath": "region-1.png"
+    },
+    {
+      "id": "brand-mark",
+      "kind": "control",
+      "note": "Small steaming cup identity mark",
+      "grid": null,
+      "parentId": "header",
+      "box": {
+        "x": 0.063,
+        "y": 0.01,
+        "w": 0.064,
+        "h": 0.045
+      },
+      "px": {
+        "x": 65,
+        "y": 15,
+        "w": 66,
+        "h": 69
+      },
+      "aspect": 0.9565,
+      "palette": [
+        {
+          "hex": "#452818",
+          "coverage": 0.7886
+        },
+        {
+          "hex": "#f7ebd2",
+          "coverage": 0.0976
+        },
+        {
+          "hex": "#f4d6ab",
+          "coverage": 0.0549
+        },
+        {
+          "hex": "#705543",
+          "coverage": 0.0386
+        },
+        {
+          "hex": "#d2baa3",
+          "coverage": 0.0203
+        }
+      ],
+      "detail": {
+        "energy": 12.994
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 2,
+      "cropPath": "region-2.png"
+    },
+    {
+      "id": "brand-name",
+      "kind": "text",
+      "note": "Cream CoffeeBreak wordmark",
+      "grid": null,
+      "parentId": "header",
+      "box": {
+        "x": 0.14,
+        "y": 0.012,
+        "w": 0.27,
+        "h": 0.04
+      },
+      "px": {
+        "x": 143,
+        "y": 18,
+        "w": 276,
+        "h": 61
+      },
+      "aspect": 4.5246,
+      "palette": [
+        {
+          "hex": "#442718",
+          "coverage": 0.7543
+        },
+        {
+          "hex": "#f7f0e2",
+          "coverage": 0.182
+        },
+        {
+          "hex": "#ccb9aa",
+          "coverage": 0.0244
+        },
+        {
+          "hex": "#988473",
+          "coverage": 0.0197
+        },
+        {
+          "hex": "#715747",
+          "coverage": 0.0197
+        }
+      ],
+      "detail": {
+        "energy": 54.2109
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 3,
+      "cropPath": "region-3.png"
+    },
+    {
+      "id": "header-navigation",
+      "kind": "chrome",
+      "note": "Three primary text navigation tabs aligned in the brand bar",
+      "grid": null,
+      "container": true,
+      "parentId": "header",
+      "box": {
+        "x": 0.17,
+        "y": 0.07,
+        "w": 0.63,
+        "h": 0.036
+      },
+      "px": {
+        "x": 174,
+        "y": 108,
+        "w": 645,
+        "h": 55
+      },
+      "aspect": 11.7273,
+      "palette": [
+        {
+          "hex": "#462818",
+          "coverage": 0.9122
+        },
+        {
+          "hex": "#b7a9a0",
+          "coverage": 0.0363
+        },
+        {
+          "hex": "#89796d",
+          "coverage": 0.0215
+        },
+        {
+          "hex": "#d87848",
+          "coverage": 0.0158
+        },
+        {
+          "hex": "#f7f6f4",
+          "coverage": 0.0143
+        }
+      ],
+      "detail": {
+        "energy": 27.331
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 4,
+      "cropPath": "region-4.png"
+    },
+    {
+      "id": "nav-prepare",
+      "kind": "control",
+      "note": "Selected Preparar tab with copper underline",
+      "grid": null,
+      "parentId": "header-navigation",
+      "box": {
+        "x": 0.2,
+        "y": 0.073,
+        "w": 0.16,
+        "h": 0.025
+      },
+      "px": {
+        "x": 205,
+        "y": 112,
+        "w": 164,
+        "h": 38
+      },
+      "aspect": 4.3158,
+      "palette": [
+        {
+          "hex": "#442718",
+          "coverage": 0.8401
+        },
+        {
+          "hex": "#f6f5f3",
+          "coverage": 0.101
+        },
+        {
+          "hex": "#c8b7ad",
+          "coverage": 0.0365
+        },
+        {
+          "hex": "#766356",
+          "coverage": 0.0196
+        },
+        {
+          "hex": "#705050",
+          "coverage": 0.0028
+        }
+      ],
+      "detail": {
+        "energy": 26.5811
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 5,
+      "cropPath": "region-5.png"
+    },
+    {
+      "id": "nav-recipebook",
+      "kind": "control",
+      "note": "Recetario navigation tab",
+      "grid": null,
+      "parentId": "header-navigation",
+      "box": {
+        "x": 0.43,
+        "y": 0.073,
+        "w": 0.16,
+        "h": 0.025
+      },
+      "px": {
+        "x": 440,
+        "y": 112,
+        "w": 164,
+        "h": 38
+      },
+      "aspect": 4.3158,
+      "palette": [
+        {
+          "hex": "#452819",
+          "coverage": 0.8322
+        },
+        {
+          "hex": "#bcaea6",
+          "coverage": 0.1147
+        },
+        {
+          "hex": "#665246",
+          "coverage": 0.0294
+        },
+        {
+          "hex": "#9a8983",
+          "coverage": 0.0182
+        },
+        {
+          "hex": "#402c2c",
+          "coverage": 0.0056
+        }
+      ],
+      "detail": {
+        "energy": 19.7197
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 6,
+      "cropPath": "region-6.png"
+    },
+    {
+      "id": "nav-saved",
+      "kind": "control",
+      "note": "Guardadas navigation tab",
+      "grid": null,
+      "parentId": "header-navigation",
+      "box": {
+        "x": 0.64,
+        "y": 0.073,
+        "w": 0.16,
+        "h": 0.025
+      },
+      "px": {
+        "x": 655,
+        "y": 112,
+        "w": 164,
+        "h": 38
+      },
+      "aspect": 4.3158,
+      "palette": [
+        {
+          "hex": "#452819",
+          "coverage": 0.8336
+        },
+        {
+          "hex": "#bcb0a8",
+          "coverage": 0.1357
+        },
+        {
+          "hex": "#88766c",
+          "coverage": 0.0238
+        },
+        {
+          "hex": "#654e45",
+          "coverage": 0.007
+        }
+      ],
+      "detail": {
+        "energy": 22.139
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 7,
+      "cropPath": "region-7.png"
+    },
+    {
+      "id": "header-microcopy",
+      "kind": "text",
+      "note": "Handwritten friendly coffee greeting in the upper right",
+      "grid": null,
+      "parentId": "header",
+      "box": {
+        "x": 0.75,
+        "y": 0.009,
+        "w": 0.22,
+        "h": 0.05
+      },
+      "px": {
+        "x": 768,
+        "y": 14,
+        "w": 225,
+        "h": 77
+      },
+      "aspect": 2.9221,
+      "palette": [
+        {
+          "hex": "#462819",
+          "coverage": 0.9056
+        },
+        {
+          "hex": "#d0ac8b",
+          "coverage": 0.0341
+        },
+        {
+          "hex": "#654937",
+          "coverage": 0.0315
+        },
+        {
+          "hex": "#937457",
+          "coverage": 0.0212
+        },
+        {
+          "hex": "#868553",
+          "coverage": 0.0077
+        }
+      ],
+      "detail": {
+        "energy": 18.256
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 8,
+      "cropPath": "region-8.png"
+    },
+    {
+      "id": "page-title",
+      "kind": "text",
+      "note": "Large serif heading Prepara tu café",
+      "grid": null,
+      "box": {
+        "x": 0.05,
+        "y": 0.132,
+        "w": 0.53,
+        "h": 0.048
+      },
+      "px": {
+        "x": 51,
+        "y": 203,
+        "w": 543,
+        "h": 74
+      },
+      "aspect": 7.3378,
+      "palette": [
+        {
+          "hex": "#f8f8f0",
+          "coverage": 0.7435
+        },
+        {
+          "hex": "#391f14",
+          "coverage": 0.215
+        },
+        {
+          "hex": "#918177",
+          "coverage": 0.0166
+        },
+        {
+          "hex": "#cfc2b9",
+          "coverage": 0.0129
+        },
+        {
+          "hex": "#594539",
+          "coverage": 0.012
+        }
+      ],
+      "detail": {
+        "energy": 65.5887
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 9,
+      "cropPath": "region-9.png"
+    },
+    {
+      "id": "page-description",
+      "kind": "text",
+      "note": "Short sans-serif explanation below the page heading",
+      "grid": null,
+      "box": {
+        "x": 0.053,
+        "y": 0.183,
+        "w": 0.6,
+        "h": 0.028
+      },
+      "px": {
+        "x": 54,
+        "y": 281,
+        "w": 614,
+        "h": 43
+      },
+      "aspect": 14.2791,
+      "palette": [
+        {
+          "hex": "#f8f8ed",
+          "coverage": 0.882
+        },
+        {
+          "hex": "#9a897d",
+          "coverage": 0.0456
+        },
+        {
+          "hex": "#5f483b",
+          "coverage": 0.0339
+        },
+        {
+          "hex": "#cec1ba",
+          "coverage": 0.0313
+        },
+        {
+          "hex": "#846961",
+          "coverage": 0.0072
+        }
+      ],
+      "detail": {
+        "energy": 37.3247
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 10,
+      "cropPath": "region-10.png"
+    },
+    {
+      "id": "page-aside",
+      "kind": "text",
+      "note": "Small stacked phrase at the right of the intro",
+      "grid": null,
+      "box": {
+        "x": 0.875,
+        "y": 0.137,
+        "w": 0.095,
+        "h": 0.056
+      },
+      "px": {
+        "x": 896,
+        "y": 210,
+        "w": 97,
+        "h": 86
+      },
+      "aspect": 1.1279,
+      "palette": [
+        {
+          "hex": "#f8f8f1",
+          "coverage": 0.9257
+        },
+        {
+          "hex": "#887e66",
+          "coverage": 0.0439
+        },
+        {
+          "hex": "#b0a590",
+          "coverage": 0.0146
+        },
+        {
+          "hex": "#e4d8c6",
+          "coverage": 0.0094
+        },
+        {
+          "hex": "#6d5d43",
+          "coverage": 0.0063
+        }
+      ],
+      "detail": {
+        "energy": 9.2951
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 11,
+      "cropPath": "region-11.png"
+    },
+    {
+      "id": "method-chemex",
+      "kind": "control",
+      "note": "Chemex method selector with compact line icon",
+      "grid": null,
+      "box": {
+        "x": 0.04,
+        "y": 0.224,
+        "w": 0.22,
+        "h": 0.073
+      },
+      "px": {
+        "x": 41,
+        "y": 344,
+        "w": 225,
+        "h": 112
+      },
+      "aspect": 2.0089,
+      "palette": [
+        {
+          "hex": "#f8f7e8",
+          "coverage": 0.955
+        },
+        {
+          "hex": "#1e0d0a",
+          "coverage": 0.0216
+        },
+        {
+          "hex": "#968f86",
+          "coverage": 0.0096
+        },
+        {
+          "hex": "#60514a",
+          "coverage": 0.0096
+        },
+        {
+          "hex": "#382823",
+          "coverage": 0.0043
+        }
+      ],
+      "detail": {
+        "energy": 15.5135
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 12,
+      "cropPath": "region-12.png"
+    },
+    {
+      "id": "method-v60",
+      "kind": "control",
+      "note": "V60 method selector with compact line icon",
+      "grid": null,
+      "box": {
+        "x": 0.275,
+        "y": 0.224,
+        "w": 0.18,
+        "h": 0.073
+      },
+      "px": {
+        "x": 282,
+        "y": 344,
+        "w": 184,
+        "h": 112
+      },
+      "aspect": 1.6429,
+      "palette": [
+        {
+          "hex": "#f8f7e8",
+          "coverage": 0.9631
+        },
+        {
+          "hex": "#1f0c09",
+          "coverage": 0.0236
+        },
+        {
+          "hex": "#c4b8b2",
+          "coverage": 0.0069
+        },
+        {
+          "hex": "#4a362a",
+          "coverage": 0.0043
+        },
+        {
+          "hex": "#2e2828",
+          "coverage": 0.0021
+        }
+      ],
+      "detail": {
+        "energy": 12.533
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 13,
+      "cropPath": "region-13.png"
+    },
+    {
+      "id": "method-press",
+      "kind": "control",
+      "note": "French press method selector with compact line icon",
+      "grid": null,
+      "box": {
+        "x": 0.465,
+        "y": 0.224,
+        "w": 0.255,
+        "h": 0.073
+      },
+      "px": {
+        "x": 476,
+        "y": 344,
+        "w": 261,
+        "h": 112
+      },
+      "aspect": 2.3304,
+      "palette": [
+        {
+          "hex": "#f8f6e8",
+          "coverage": 0.9474
+        },
+        {
+          "hex": "#0d0a0a",
+          "coverage": 0.0233
+        },
+        {
+          "hex": "#837b75",
+          "coverage": 0.0113
+        },
+        {
+          "hex": "#a69f98",
+          "coverage": 0.0092
+        },
+        {
+          "hex": "#5c5a52",
+          "coverage": 0.0089
+        }
+      ],
+      "detail": {
+        "energy": 21.5938
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 14,
+      "cropPath": "region-14.png"
+    },
+    {
+      "id": "method-cold-brew",
+      "kind": "control",
+      "note": "Selected Cold Brew method selector",
+      "grid": null,
+      "box": {
+        "x": 0.73,
+        "y": 0.224,
+        "w": 0.23,
+        "h": 0.073
+      },
+      "px": {
+        "x": 748,
+        "y": 344,
+        "w": 236,
+        "h": 112
+      },
+      "aspect": 2.1071,
+      "palette": [
+        {
+          "hex": "#f7e2d3",
+          "coverage": 0.9088
+        },
+        {
+          "hex": "#6a3517",
+          "coverage": 0.0471
+        },
+        {
+          "hex": "#2c1509",
+          "coverage": 0.0165
+        },
+        {
+          "hex": "#e4bb9b",
+          "coverage": 0.0165
+        },
+        {
+          "hex": "#a9380b",
+          "coverage": 0.011
+        }
+      ],
+      "detail": {
+        "energy": 18.6107
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 15,
+      "cropPath": "region-15.png"
+    },
+    {
+      "id": "cold-brew-title",
+      "kind": "text",
+      "note": "Cold Brew section heading in bold serif",
+      "grid": null,
+      "box": {
+        "x": 0.052,
+        "y": 0.322,
+        "w": 0.3,
+        "h": 0.037
+      },
+      "px": {
+        "x": 53,
+        "y": 495,
+        "w": 307,
+        "h": 57
+      },
+      "aspect": 5.386,
+      "palette": [
+        {
+          "hex": "#f8f7ec",
+          "coverage": 0.7964
+        },
+        {
+          "hex": "#32180b",
+          "coverage": 0.151
+        },
+        {
+          "hex": "#bfb1aa",
+          "coverage": 0.0278
+        },
+        {
+          "hex": "#5a4437",
+          "coverage": 0.0129
+        },
+        {
+          "hex": "#87776b",
+          "coverage": 0.0119
+        }
+      ],
+      "detail": {
+        "energy": 45.258
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 16,
+      "cropPath": "region-16.png"
+    },
+    {
+      "id": "cold-brew-description",
+      "kind": "text",
+      "note": "Short description of the selected cold coffee preparation",
+      "grid": null,
+      "box": {
+        "x": 0.054,
+        "y": 0.359,
+        "w": 0.65,
+        "h": 0.028
+      },
+      "px": {
+        "x": 55,
+        "y": 551,
+        "w": 666,
+        "h": 43
+      },
+      "aspect": 15.4884,
+      "palette": [
+        {
+          "hex": "#f8f7eb",
+          "coverage": 0.878
+        },
+        {
+          "hex": "#5e4a3e",
+          "coverage": 0.0568
+        },
+        {
+          "hex": "#cbbeb1",
+          "coverage": 0.0415
+        },
+        {
+          "hex": "#8a796c",
+          "coverage": 0.0231
+        },
+        {
+          "hex": "#a89898",
+          "coverage": 0.0006
+        }
+      ],
+      "detail": {
+        "energy": 40.5898
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 17,
+      "cropPath": "region-17.png"
+    },
+    {
+      "id": "cold-brew-aside",
+      "kind": "text",
+      "note": "Small handwritten coffee note to the right of the method description",
+      "grid": null,
+      "box": {
+        "x": 0.82,
+        "y": 0.337,
+        "w": 0.14,
+        "h": 0.046
+      },
+      "px": {
+        "x": 840,
+        "y": 518,
+        "w": 143,
+        "h": 71
+      },
+      "aspect": 2.0141,
+      "palette": [
+        {
+          "hex": "#f8f8ec",
+          "coverage": 0.8854
+        },
+        {
+          "hex": "#9c8470",
+          "coverage": 0.0582
+        },
+        {
+          "hex": "#d0c2b2",
+          "coverage": 0.0477
+        },
+        {
+          "hex": "#817f5f",
+          "coverage": 0.0078
+        },
+        {
+          "hex": "#684838",
+          "coverage": 0.0009
+        }
+      ],
+      "detail": {
+        "energy": 16.3766
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 18,
+      "cropPath": "region-18.png"
+    },
+    {
+      "id": "cold-brew-mode",
+      "kind": "control",
+      "note": "Two-way mode selector for concentrate and ready-to-drink recipes",
+      "grid": null,
+      "box": {
+        "x": 0.043,
+        "y": 0.395,
+        "w": 0.914,
+        "h": 0.041
+      },
+      "px": {
+        "x": 44,
+        "y": 607,
+        "w": 936,
+        "h": 63
+      },
+      "aspect": 14.8571,
+      "palette": [
+        {
+          "hex": "#f6e9e6",
+          "coverage": 0.523
+        },
+        {
+          "hex": "#b15838",
+          "coverage": 0.4585
+        },
+        {
+          "hex": "#080808",
+          "coverage": 0.0068
+        },
+        {
+          "hex": "#ce997c",
+          "coverage": 0.0065
+        },
+        {
+          "hex": "#e6cec0",
+          "coverage": 0.0051
+        }
+      ],
+      "detail": {
+        "energy": 20.5982
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 19,
+      "cropPath": "region-19.png"
+    },
+    {
+      "id": "quantity-panel",
+      "kind": "chrome",
+      "note": "Warm inset panel containing serving quantity controls",
+      "grid": null,
+      "container": true,
+      "box": {
+        "x": 0.043,
+        "y": 0.449,
+        "w": 0.914,
+        "h": 0.113
+      },
+      "px": {
+        "x": 44,
+        "y": 690,
+        "w": 936,
+        "h": 174
+      },
+      "aspect": 5.3793,
+      "palette": [
+        {
+          "hex": "#f7edea",
+          "coverage": 0.9716
+        },
+        {
+          "hex": "#341a11",
+          "coverage": 0.0142
+        },
+        {
+          "hex": "#100a0a",
+          "coverage": 0.0087
+        },
+        {
+          "hex": "#a09080",
+          "coverage": 0.0032
+        },
+        {
+          "hex": "#513d31",
+          "coverage": 0.0023
+        }
+      ],
+      "detail": {
+        "energy": 17.9943
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 20,
+      "cropPath": "region-20.png"
+    },
+    {
+      "id": "quantity-heading",
+      "kind": "text",
+      "note": "Question heading for the quantity settings",
+      "grid": null,
+      "parentId": "quantity-panel",
+      "box": {
+        "x": 0.076,
+        "y": 0.466,
+        "w": 0.4,
+        "h": 0.027
+      },
+      "px": {
+        "x": 78,
+        "y": 716,
+        "w": 410,
+        "h": 41
+      },
+      "aspect": 10,
+      "palette": [
+        {
+          "hex": "#f7ebe7",
+          "coverage": 0.7923
+        },
+        {
+          "hex": "#341a10",
+          "coverage": 0.1241
+        },
+        {
+          "hex": "#604c40",
+          "coverage": 0.0319
+        },
+        {
+          "hex": "#af9f91",
+          "coverage": 0.0314
+        },
+        {
+          "hex": "#d0c8bb",
+          "coverage": 0.0202
+        }
+      ],
+      "detail": {
+        "energy": 80.1443
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 21,
+      "cropPath": "region-21.png"
+    },
+    {
+      "id": "serving-stepper",
+      "kind": "control",
+      "note": "Minus, serving count, and plus control",
+      "grid": null,
+      "parentId": "quantity-panel",
+      "box": {
+        "x": 0.076,
+        "y": 0.495,
+        "w": 0.414,
+        "h": 0.05
+      },
+      "px": {
+        "x": 78,
+        "y": 760,
+        "w": 424,
+        "h": 77
+      },
+      "aspect": 5.5065,
+      "palette": [
+        {
+          "hex": "#f7f2eb",
+          "coverage": 0.9578
+        },
+        {
+          "hex": "#1a0b0a",
+          "coverage": 0.0166
+        },
+        {
+          "hex": "#d4c5c1",
+          "coverage": 0.0147
+        },
+        {
+          "hex": "#533f2f",
+          "coverage": 0.0057
+        },
+        {
+          "hex": "#483232",
+          "coverage": 0.0052
+        }
+      ],
+      "detail": {
+        "energy": 17.1203
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 22,
+      "cropPath": "region-22.png"
+    },
+    {
+      "id": "serving-size",
+      "kind": "control",
+      "note": "Dropdown for milliliters per serving",
+      "grid": null,
+      "parentId": "quantity-panel",
+      "box": {
+        "x": 0.52,
+        "y": 0.495,
+        "w": 0.405,
+        "h": 0.05
+      },
+      "px": {
+        "x": 532,
+        "y": 760,
+        "w": 415,
+        "h": 77
+      },
+      "aspect": 5.3896,
+      "palette": [
+        {
+          "hex": "#f8f7f5",
+          "coverage": 0.8814
+        },
+        {
+          "hex": "#d8cec7",
+          "coverage": 0.0885
+        },
+        {
+          "hex": "#100e0e",
+          "coverage": 0.0159
+        },
+        {
+          "hex": "#aaa7a5",
+          "coverage": 0.0084
+        },
+        {
+          "hex": "#464441",
+          "coverage": 0.0059
+        }
+      ],
+      "detail": {
+        "energy": 22.9516
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 23,
+      "cropPath": "region-23.png"
+    },
+    {
+      "id": "recipe-panel",
+      "kind": "chrome",
+      "note": "Larger cream panel containing the calculated Cold Brew mixture and primary action",
+      "grid": null,
+      "container": true,
+      "box": {
+        "x": 0.043,
+        "y": 0.573,
+        "w": 0.914,
+        "h": 0.323
+      },
+      "px": {
+        "x": 44,
+        "y": 880,
+        "w": 936,
+        "h": 496
+      },
+      "aspect": 1.8871,
+      "palette": [
+        {
+          "hex": "#f8e8d9",
+          "coverage": 0.8176
+        },
+        {
+          "hex": "#ad5831",
+          "coverage": 0.1475
+        },
+        {
+          "hex": "#391d12",
+          "coverage": 0.0192
+        },
+        {
+          "hex": "#d3c1aa",
+          "coverage": 0.0105
+        },
+        {
+          "hex": "#d8a888",
+          "coverage": 0.0051
+        }
+      ],
+      "detail": {
+        "energy": 21.4718
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 24,
+      "cropPath": "region-24.png"
+    },
+    {
+      "id": "recipe-heading",
+      "kind": "text",
+      "note": "Tu mezcla title anchoring the calculation panel",
+      "grid": null,
+      "parentId": "recipe-panel",
+      "box": {
+        "x": 0.08,
+        "y": 0.594,
+        "w": 0.27,
+        "h": 0.034
+      },
+      "px": {
+        "x": 82,
+        "y": 912,
+        "w": 276,
+        "h": 52
+      },
+      "aspect": 5.3077,
+      "palette": [
+        {
+          "hex": "#f8e9da",
+          "coverage": 0.7523
+        },
+        {
+          "hex": "#391e13",
+          "coverage": 0.1956
+        },
+        {
+          "hex": "#ae9b8a",
+          "coverage": 0.0339
+        },
+        {
+          "hex": "#755e4e",
+          "coverage": 0.0157
+        },
+        {
+          "hex": "#c4b8b4",
+          "coverage": 0.0024
+        }
+      ],
+      "detail": {
+        "energy": 47.2084
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 25,
+      "cropPath": "region-25.png"
+    },
+    {
+      "id": "recipe-panel-note",
+      "kind": "text",
+      "note": "Small sage coffee affirmation on the recipe panel",
+      "grid": null,
+      "parentId": "recipe-panel",
+      "box": {
+        "x": 0.69,
+        "y": 0.592,
+        "w": 0.24,
+        "h": 0.031
+      },
+      "px": {
+        "x": 707,
+        "y": 909,
+        "w": 246,
+        "h": 48
+      },
+      "aspect": 5.125,
+      "palette": [
+        {
+          "hex": "#f8e9d9",
+          "coverage": 0.8786
+        },
+        {
+          "hex": "#7b735a",
+          "coverage": 0.0718
+        },
+        {
+          "hex": "#b2a693",
+          "coverage": 0.0366
+        },
+        {
+          "hex": "#c5c5a8",
+          "coverage": 0.0092
+        },
+        {
+          "hex": "#626b3e",
+          "coverage": 0.0038
+        }
+      ],
+      "detail": {
+        "energy": 24.5889
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 26,
+      "cropPath": "region-26.png"
+    },
+    {
+      "id": "coffee-value",
+      "kind": "text",
+      "note": "Calculated coffee mass shown as 94 grams",
+      "grid": null,
+      "parentId": "recipe-panel",
+      "box": {
+        "x": 0.1,
+        "y": 0.683,
+        "w": 0.13,
+        "h": 0.031
+      },
+      "px": {
+        "x": 102,
+        "y": 1049,
+        "w": 133,
+        "h": 48
+      },
+      "aspect": 2.7708,
+      "palette": [
+        {
+          "hex": "#f7e8d9",
+          "coverage": 0.7733
+        },
+        {
+          "hex": "#3b1f15",
+          "coverage": 0.178
+        },
+        {
+          "hex": "#b3a090",
+          "coverage": 0.0376
+        },
+        {
+          "hex": "#655545",
+          "coverage": 0.0083
+        },
+        {
+          "hex": "#807868",
+          "coverage": 0.0028
+        }
+      ],
+      "detail": {
+        "energy": 20.3732
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 27,
+      "cropPath": "region-27.png"
+    },
+    {
+      "id": "coffee-label",
+      "kind": "text",
+      "note": "Café label beneath the coffee amount",
+      "grid": null,
+      "parentId": "recipe-panel",
+      "box": {
+        "x": 0.12,
+        "y": 0.724,
+        "w": 0.08,
+        "h": 0.019
+      },
+      "px": {
+        "x": 123,
+        "y": 1112,
+        "w": 82,
+        "h": 29
+      },
+      "aspect": 2.8276,
+      "palette": [
+        {
+          "hex": "#f8e9d9",
+          "coverage": 0.8679
+        },
+        {
+          "hex": "#7f715f",
+          "coverage": 0.075
+        },
+        {
+          "hex": "#c4b8a5",
+          "coverage": 0.0393
+        },
+        {
+          "hex": "#5c4c38",
+          "coverage": 0.0143
+        },
+        {
+          "hex": "#382818",
+          "coverage": 0.0036
+        }
+      ],
+      "detail": {
+        "energy": 10.4258
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 28,
+      "cropPath": "region-28.png"
+    },
+    {
+      "id": "water-value",
+      "kind": "text",
+      "note": "Calculated cold water amount shown as 750 milliliters",
+      "grid": null,
+      "parentId": "recipe-panel",
+      "box": {
+        "x": 0.32,
+        "y": 0.683,
+        "w": 0.18,
+        "h": 0.031
+      },
+      "px": {
+        "x": 328,
+        "y": 1049,
+        "w": 184,
+        "h": 48
+      },
+      "aspect": 3.8333,
+      "palette": [
+        {
+          "hex": "#f8e9d9",
+          "coverage": 0.7217
+        },
+        {
+          "hex": "#361910",
+          "coverage": 0.1852
+        },
+        {
+          "hex": "#c3b49f",
+          "coverage": 0.0678
+        },
+        {
+          "hex": "#63483b",
+          "coverage": 0.0162
+        },
+        {
+          "hex": "#8f7c6d",
+          "coverage": 0.0091
+        }
+      ],
+      "detail": {
+        "energy": 30.0109
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 29,
+      "cropPath": "region-29.png"
+    },
+    {
+      "id": "water-label",
+      "kind": "text",
+      "note": "Agua label beneath the water amount",
+      "grid": null,
+      "parentId": "recipe-panel",
+      "box": {
+        "x": 0.375,
+        "y": 0.724,
+        "w": 0.08,
+        "h": 0.019
+      },
+      "px": {
+        "x": 384,
+        "y": 1112,
+        "w": 82,
+        "h": 29
+      },
+      "aspect": 2.8276,
+      "palette": [
+        {
+          "hex": "#f7e8d9",
+          "coverage": 0.9179
+        },
+        {
+          "hex": "#71614f",
+          "coverage": 0.0321
+        },
+        {
+          "hex": "#c4bca4",
+          "coverage": 0.0321
+        },
+        {
+          "hex": "#585535",
+          "coverage": 0.0179
+        }
+      ],
+      "detail": {
+        "energy": 8.7794
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 30,
+      "cropPath": "region-30.png"
+    },
+    {
+      "id": "ratio-value",
+      "kind": "text",
+      "note": "Brew ratio shown as one to eight",
+      "grid": null,
+      "parentId": "recipe-panel",
+      "box": {
+        "x": 0.57,
+        "y": 0.683,
+        "w": 0.12,
+        "h": 0.031
+      },
+      "px": {
+        "x": 584,
+        "y": 1049,
+        "w": 123,
+        "h": 48
+      },
+      "aspect": 2.5625,
+      "palette": [
+        {
+          "hex": "#f8e8d9",
+          "coverage": 0.7786
+        },
+        {
+          "hex": "#391c11",
+          "coverage": 0.1771
+        },
+        {
+          "hex": "#6a5447",
+          "coverage": 0.0198
+        },
+        {
+          "hex": "#a18c7c",
+          "coverage": 0.0198
+        },
+        {
+          "hex": "#cdbdb3",
+          "coverage": 0.0046
+        }
+      ],
+      "detail": {
+        "energy": 17.1794
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 31,
+      "cropPath": "region-31.png"
+    },
+    {
+      "id": "ratio-label",
+      "kind": "text",
+      "note": "Proportion label beneath the ratio",
+      "grid": null,
+      "parentId": "recipe-panel",
+      "box": {
+        "x": 0.54,
+        "y": 0.724,
+        "w": 0.16,
+        "h": 0.019
+      },
+      "px": {
+        "x": 553,
+        "y": 1112,
+        "w": 164,
+        "h": 29
+      },
+      "aspect": 5.6552,
+      "palette": [
+        {
+          "hex": "#f8eada",
+          "coverage": 0.8745
+        },
+        {
+          "hex": "#5f563f",
+          "coverage": 0.0527
+        },
+        {
+          "hex": "#b9af9b",
+          "coverage": 0.0436
+        },
+        {
+          "hex": "#8d866b",
+          "coverage": 0.0291
+        }
+      ],
+      "detail": {
+        "energy": 25.9544
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 32,
+      "cropPath": "region-32.png"
+    },
+    {
+      "id": "duration-value",
+      "kind": "text",
+      "note": "Cold brew duration shown as fourteen hours",
+      "grid": null,
+      "parentId": "recipe-panel",
+      "box": {
+        "x": 0.78,
+        "y": 0.683,
+        "w": 0.11,
+        "h": 0.031
+      },
+      "px": {
+        "x": 799,
+        "y": 1049,
+        "w": 113,
+        "h": 48
+      },
+      "aspect": 2.3542,
+      "palette": [
+        {
+          "hex": "#f8e9d9",
+          "coverage": 0.7496
+        },
+        {
+          "hex": "#33190f",
+          "coverage": 0.2026
+        },
+        {
+          "hex": "#bcaf9e",
+          "coverage": 0.0181
+        },
+        {
+          "hex": "#7a6053",
+          "coverage": 0.0165
+        },
+        {
+          "hex": "#503a2e",
+          "coverage": 0.0132
+        }
+      ],
+      "detail": {
+        "energy": 17.2679
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 33,
+      "cropPath": "region-33.png"
+    },
+    {
+      "id": "duration-label",
+      "kind": "text",
+      "note": "Refrigeration label beneath the duration",
+      "grid": null,
+      "parentId": "recipe-panel",
+      "box": {
+        "x": 0.755,
+        "y": 0.724,
+        "w": 0.18,
+        "h": 0.019
+      },
+      "px": {
+        "x": 773,
+        "y": 1112,
+        "w": 184,
+        "h": 29
+      },
+      "aspect": 6.3448,
+      "palette": [
+        {
+          "hex": "#f7eada",
+          "coverage": 0.8919
+        },
+        {
+          "hex": "#8b7c6a",
+          "coverage": 0.0613
+        },
+        {
+          "hex": "#b1ad91",
+          "coverage": 0.0306
+        },
+        {
+          "hex": "#635b46",
+          "coverage": 0.0161
+        }
+      ],
+      "detail": {
+        "energy": 28.3183
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 34,
+      "cropPath": "region-34.png"
+    },
+    {
+      "id": "dilution-note",
+      "kind": "text",
+      "note": "Serving note to dilute the concentrate one to one for six glasses",
+      "grid": null,
+      "parentId": "recipe-panel",
+      "box": {
+        "x": 0.28,
+        "y": 0.781,
+        "w": 0.47,
+        "h": 0.035
+      },
+      "px": {
+        "x": 287,
+        "y": 1200,
+        "w": 481,
+        "h": 54
+      },
+      "aspect": 8.9074,
+      "palette": [
+        {
+          "hex": "#f8e9da",
+          "coverage": 0.9043
+        },
+        {
+          "hex": "#0b0a09",
+          "coverage": 0.0542
+        },
+        {
+          "hex": "#949183",
+          "coverage": 0.0162
+        },
+        {
+          "hex": "#444236",
+          "coverage": 0.0158
+        },
+        {
+          "hex": "#312929",
+          "coverage": 0.0095
+        }
+      ],
+      "detail": {
+        "energy": 50.6454
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 35,
+      "cropPath": "region-35.png"
+    },
+    {
+      "id": "prepare-action",
+      "kind": "control",
+      "note": "Wide copper button to begin the guided preparation",
+      "grid": null,
+      "parentId": "recipe-panel",
+      "box": {
+        "x": 0.075,
+        "y": 0.822,
+        "w": 0.85,
+        "h": 0.055
+      },
+      "px": {
+        "x": 77,
+        "y": 1263,
+        "w": 870,
+        "h": 84
+      },
+      "aspect": 10.3571,
+      "palette": [
+        {
+          "hex": "#ae5831",
+          "coverage": 0.9231
+        },
+        {
+          "hex": "#f8f6ea",
+          "coverage": 0.06
+        },
+        {
+          "hex": "#cb8e6f",
+          "coverage": 0.009
+        },
+        {
+          "hex": "#edd0be",
+          "coverage": 0.0054
+        },
+        {
+          "hex": "#deb29e",
+          "coverage": 0.0024
+        }
+      ],
+      "detail": {
+        "energy": 14.9743
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 36,
+      "cropPath": "region-36.png"
+    },
+    {
+      "id": "bottom-navigation",
+      "kind": "chrome",
+      "note": "Warm bottom navigation spanning the lower edge of the page",
+      "grid": null,
+      "container": true,
+      "box": {
+        "x": 0,
+        "y": 0.922,
+        "w": 1,
+        "h": 0.078
+      },
+      "px": {
+        "x": 0,
+        "y": 1416,
+        "w": 1024,
+        "h": 120
+      },
+      "aspect": 8.5333,
+      "palette": [
+        {
+          "hex": "#f8f7e9",
+          "coverage": 0.9712
+        },
+        {
+          "hex": "#b85a2d",
+          "coverage": 0.0133
+        },
+        {
+          "hex": "#8f7e6e",
+          "coverage": 0.0064
+        },
+        {
+          "hex": "#5d463d",
+          "coverage": 0.0057
+        },
+        {
+          "hex": "#ccbcaf",
+          "coverage": 0.0033
+        }
+      ],
+      "detail": {
+        "energy": 13.6006
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 37,
+      "cropPath": "region-37.png"
+    },
+    {
+      "id": "bottom-prepare",
+      "kind": "control",
+      "note": "Selected bottom navigation item for preparation",
+      "grid": null,
+      "parentId": "bottom-navigation",
+      "box": {
+        "x": 0.065,
+        "y": 0.934,
+        "w": 0.2,
+        "h": 0.058
+      },
+      "px": {
+        "x": 67,
+        "y": 1435,
+        "w": 205,
+        "h": 89
+      },
+      "aspect": 2.3034,
+      "palette": [
+        {
+          "hex": "#f8f8eb",
+          "coverage": 0.9167
+        },
+        {
+          "hex": "#b55429",
+          "coverage": 0.0589
+        },
+        {
+          "hex": "#cf916d",
+          "coverage": 0.0136
+        },
+        {
+          "hex": "#e4c2ae",
+          "coverage": 0.0107
+        }
+      ],
+      "detail": {
+        "energy": 9.9551
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 38,
+      "cropPath": "region-38.png"
+    },
+    {
+      "id": "bottom-recipebook",
+      "kind": "control",
+      "note": "Bottom navigation item for the recipe book",
+      "grid": null,
+      "parentId": "bottom-navigation",
+      "box": {
+        "x": 0.34,
+        "y": 0.934,
+        "w": 0.2,
+        "h": 0.058
+      },
+      "px": {
+        "x": 348,
+        "y": 1435,
+        "w": 205,
+        "h": 89
+      },
+      "aspect": 2.3034,
+      "palette": [
+        {
+          "hex": "#f8f8e9",
+          "coverage": 0.9578
+        },
+        {
+          "hex": "#7e6d5f",
+          "coverage": 0.0204
+        },
+        {
+          "hex": "#574139",
+          "coverage": 0.0136
+        },
+        {
+          "hex": "#bcaca3",
+          "coverage": 0.0083
+        }
+      ],
+      "detail": {
+        "energy": 9.9371
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 39,
+      "cropPath": "region-39.png"
+    },
+    {
+      "id": "bottom-saved",
+      "kind": "control",
+      "note": "Bottom navigation item for saved recipes",
+      "grid": null,
+      "parentId": "bottom-navigation",
+      "box": {
+        "x": 0.605,
+        "y": 0.934,
+        "w": 0.2,
+        "h": 0.058
+      },
+      "px": {
+        "x": 620,
+        "y": 1435,
+        "w": 205,
+        "h": 89
+      },
+      "aspect": 2.3034,
+      "palette": [
+        {
+          "hex": "#f8f8e8",
+          "coverage": 0.9971
+        },
+        {
+          "hex": "#584838",
+          "coverage": 0.001
+        },
+        {
+          "hex": "#887868",
+          "coverage": 0.001
+        },
+        {
+          "hex": "#b8a898",
+          "coverage": 0.001
+        }
+      ],
+      "detail": {
+        "energy": 1.837
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": true,
+        "rules": false
+      },
+      "number": 40,
+      "cropPath": "region-40.png"
+    },
+    {
+      "id": "bottom-microcopy",
+      "kind": "text",
+      "note": "Small handwritten sign-off at the right edge",
+      "grid": null,
+      "parentId": "bottom-navigation",
+      "box": {
+        "x": 0.82,
+        "y": 0.933,
+        "w": 0.16,
+        "h": 0.058
+      },
+      "px": {
+        "x": 840,
+        "y": 1433,
+        "w": 164,
+        "h": 89
+      },
+      "aspect": 1.8427,
+      "palette": [
+        {
+          "hex": "#f8f7ea",
+          "coverage": 0.9309
+        },
+        {
+          "hex": "#a19281",
+          "coverage": 0.0418
+        },
+        {
+          "hex": "#d1c1b3",
+          "coverage": 0.0139
+        },
+        {
+          "hex": "#816d58",
+          "coverage": 0.0121
+        },
+        {
+          "hex": "#809060",
+          "coverage": 0.0012
+        }
+      ],
+      "detail": {
+        "energy": 12.3336
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 41,
+      "cropPath": "region-41.png"
+    }
+  ],
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "measurement-warning",
+      "regionId": null,
+      "message": "region header: \"container\": true set in the regions file (the region-size refusal is overridden: one undivided element)"
+    },
+    {
+      "severity": "warning",
+      "code": "measurement-warning",
+      "regionId": null,
+      "message": "region header-navigation: \"container\": true set in the regions file (the region-size refusal is overridden: one undivided element)"
+    },
+    {
+      "severity": "warning",
+      "code": "measurement-warning",
+      "regionId": null,
+      "message": "region quantity-panel: \"container\": true set in the regions file (the region-size refusal is overridden: one undivided element)"
+    },
+    {
+      "severity": "warning",
+      "code": "measurement-warning",
+      "regionId": null,
+      "message": "region recipe-panel: \"container\": true set in the regions file (the region-size refusal is overridden: one undivided element)"
+    },
+    {
+      "severity": "warning",
+      "code": "measurement-warning",
+      "regionId": null,
+      "message": "region bottom-navigation: \"container\": true set in the regions file (the region-size refusal is overridden: one undivided element)"
+    },
+    {
+      "severity": "warning",
+      "code": "uncovered-ink",
+      "regionId": null,
+      "message": "2 grid cells have detail outside named regions. This is a coverage heuristic, not proof of missing components."
+    }
+  ],
+  "overlaps": [
+    {
+      "a": "header",
+      "b": "brand-mark",
+      "pixels": 4554.0,
+      "relationship": "container extent"
+    },
+    {
+      "a": "header",
+      "b": "brand-name",
+      "pixels": 16836.0,
+      "relationship": "container extent"
+    },
+    {
+      "a": "header",
+      "b": "header-navigation",
+      "pixels": 35475.0,
+      "relationship": "container extent"
+    },
+    {
+      "a": "header",
+      "b": "nav-prepare",
+      "pixels": 6232.0,
+      "relationship": "container extent"
+    },
+    {
+      "a": "header",
+      "b": "nav-recipebook",
+      "pixels": 6232.0,
+      "relationship": "container extent"
+    },
+    {
+      "a": "header",
+      "b": "nav-saved",
+      "pixels": 6232.0,
+      "relationship": "container extent"
+    },
+    {
+      "a": "header",
+      "b": "header-microcopy",
+      "pixels": 17325.0,
+      "relationship": "container extent"
+    },
+    {
+      "a": "header-navigation",
+      "b": "nav-prepare",
+      "pixels": 6232.0,
+      "relationship": "container extent"
+    },
+    {
+      "a": "header-navigation",
+      "b": "nav-recipebook",
+      "pixels": 6232.0,
+      "relationship": "container extent"
+    },
+    {
+      "a": "header-navigation",
+      "b": "nav-saved",
+      "pixels": 6232.0,
+      "relationship": "container extent"
+    },
+    {
+      "a": "cold-brew-title",
+      "b": "cold-brew-description",
+      "pixels": 305.0,
+      "relationship": "overlapping elements"
+    },
+    {
+      "a": "quantity-panel",
+      "b": "quantity-heading",
+      "pixels": 16810.0,
+      "relationship": "container extent"
+    },
+    {
+      "a": "quantity-panel",
+      "b": "serving-stepper",
+      "pixels": 32648.0,
+      "relationship": "container extent"
+    },
+    {
+      "a": "quantity-panel",
+      "b": "serving-size",
+      "pixels": 31955.0,
+      "relationship": "container extent"
+    },
+    {
+      "a": "recipe-panel",
+      "b": "recipe-heading",
+      "pixels": 14352.0,
+      "relationship": "container extent"
+    },
+    {
+      "a": "recipe-panel",
+      "b": "recipe-panel-note",
+      "pixels": 11808.0,
+      "relationship": "container extent"
+    },
+    {
+      "a": "recipe-panel",
+      "b": "coffee-value",
+      "pixels": 6384.0,
+      "relationship": "container extent"
+    },
+    {
+      "a": "recipe-panel",
+      "b": "coffee-label",
+      "pixels": 2378.0,
+      "relationship": "container extent"
+    },
+    {
+      "a": "recipe-panel",
+      "b": "water-value",
+      "pixels": 8832.0,
+      "relationship": "container extent"
+    },
+    {
+      "a": "recipe-panel",
+      "b": "water-label",
+      "pixels": 2378.0,
+      "relationship": "container extent"
+    },
+    {
+      "a": "recipe-panel",
+      "b": "ratio-value",
+      "pixels": 5904.0,
+      "relationship": "container extent"
+    },
+    {
+      "a": "recipe-panel",
+      "b": "ratio-label",
+      "pixels": 4756.0,
+      "relationship": "container extent"
+    },
+    {
+      "a": "recipe-panel",
+      "b": "duration-value",
+      "pixels": 5424.0,
+      "relationship": "container extent"
+    },
+    {
+      "a": "recipe-panel",
+      "b": "duration-label",
+      "pixels": 5336.0,
+      "relationship": "container extent"
+    },
+    {
+      "a": "recipe-panel",
+      "b": "dilution-note",
+      "pixels": 25974.0,
+      "relationship": "container extent"
+    },
+    {
+      "a": "recipe-panel",
+      "b": "prepare-action",
+      "pixels": 73080.0,
+      "relationship": "container extent"
+    },
+    {
+      "a": "bottom-navigation",
+      "b": "bottom-prepare",
+      "pixels": 18245.0,
+      "relationship": "container extent"
+    },
+    {
+      "a": "bottom-navigation",
+      "b": "bottom-recipebook",
+      "pixels": 18245.0,
+      "relationship": "container extent"
+    },
+    {
+      "a": "bottom-navigation",
+      "b": "bottom-saved",
+      "pixels": 18245.0,
+      "relationship": "container extent"
+    },
+    {
+      "a": "bottom-navigation",
+      "b": "bottom-microcopy",
+      "pixels": 14596.0,
+      "relationship": "container extent"
+    }
+  ],
+  "reviewGroups": {},
+  "uncoveredInkCells": [
+    "A3",
+    "E3"
+  ],
+  "comparisonSheets": []
+}
